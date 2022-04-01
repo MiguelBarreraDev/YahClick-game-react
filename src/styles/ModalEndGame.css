@@ -1,0 +1,65 @@
+/*==================*/
+/* Custom variables */
+/*==================*/
+:root {
+  --btn-start: #7ff;
+  --btn-reset: #faa;
+  --clr-counter: #39adff;
+}
+/*==============================*/
+/* Styles for the modal section */
+/*==============================*/
+.back-modal {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0005;
+  backdrop-filter: blur(7px);
+}
+.main.modal {
+  /* Layout */
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* Styles */
+  font-family: monospace;
+  grid-template-rows: min-content auto;
+  color: #fff;
+}
+/*==============================*/
+/* Styles for the score section */
+/*==============================*/
+.container-score {
+  text-align: center;
+  font-weight: bolder;
+}
+.container-score > * {
+  text-shadow: 0 0 3px #77f, 0 0 5px #77f;
+  font-size: 2.5em;
+  margin: 0;
+}
+/*===============================*/
+/* Styles for button (Try Again) */
+/*===============================*/
+.modal-button {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  font-size: 1.7em;
+  font-weight: bolder;
+  color: #fff;
+  width: 90%;
+  padding: 5px 10px;
+  border: 1px solid var(--btn-reset);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modal-button:hover {
+  color: #ddd;
+}
+.modal-button:active {
+  border: 0;
+  color: #fff;
+  box-shadow: 0px 0px 5px var(--btn-reset), 0px 0px 7px var(--btn-reset);
+}

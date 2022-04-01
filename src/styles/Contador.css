@@ -1,0 +1,58 @@
+/*=========================================*/
+/* Styles for the main section of the page */
+/*=========================================*/
+.main {
+  /* Layout */
+  margin: 70px 10px;
+  max-width: 600px;
+  width: 100%;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 110px;
+  justify-items: center;
+  align-items: center;
+}
+.main-counter {
+  grid-column: 1/-1;
+}
+/*===============================*/
+/* Style for the counter (score) */
+/*===============================*/
+.main-counter {
+  text-align: center;
+  color: #39adff;
+  font-weight: bolder;
+  text-shadow: 0px 0px 5px #39adff, 0px 0px 7px #39adff;
+  font-size: 3em;
+}
+/*====================================*/
+/* Styles for the buttons of the game */
+/*====================================*/
+.main-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 1.7em;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+}
+.button-start {
+  border: 1px dashed #7ff;
+}
+.button-start:active {
+  box-shadow: 0px 0px 5px #7ff;
+  width: 105px;
+  height: 105px;
+  color: #7ff;
+}
+.button-reset {
+  border: 1px dashed #faa;
+}
+.button-reset:active {
+  box-shadow: 0px 0px 5px #faa;
+  color: #faa;
+}
