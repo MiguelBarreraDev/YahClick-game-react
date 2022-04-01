@@ -6,7 +6,7 @@ export default function Header() {
 	return (
 		<>
 			<header className="header">
-				<img className="header-logo" src={logo}/>
+				<img className="header-logo" alt='logo react' src={logo}/>
 				<h1 className="header-title">YahClick!</h1>
 				<Timer className="header-timer"/>
 			</header>

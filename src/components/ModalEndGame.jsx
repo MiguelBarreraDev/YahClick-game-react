@@ -1,5 +1,5 @@
 import '../styles/ModalEndGame.css'
-import {useGetGame, usePutGame} from '../hooks/hookGame'
+import {usePutGame} from '../hooks/hookGame'
 
 export default function ModalGameOver({score}) {
 	const {setMode, setTime, setCounter} = usePutGame()
